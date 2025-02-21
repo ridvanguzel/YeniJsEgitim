@@ -1,3 +1,7 @@
+
+
+
+
 //Filter Metodu 
 
 // ana dizyi değiştirmiyorsa yenı degişkene atayabılırız  filter metodu, belirli bir koşulu sağlayan elemanları seçip yeni bir dizi oluşturur.
