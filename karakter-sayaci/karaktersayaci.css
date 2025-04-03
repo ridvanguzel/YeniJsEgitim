@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container{
+    padding:40px;
+    background-color:darkgray;
+    border-radius: 24px;
+    width: 600px;
+}
+
+.container textarea{
+    width: 100%;
+    margin-top: 12px;
+    padding:16px;
+    border: none;
+    border-radius: 12px;
+    resize: none;
+    outline: none;
+
+}
+.text-area{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.text-area p{
+    font-size:20px;
+}
+.totalCounter{
+    color:green
+}
+.remainingCounter{
+    color:red
+}
