@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: greenyellow;
+
+}
+
+.sidebar {
+  width: 200px;
+  background: red;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+transform: translate(-100%);
+transition: ease-in-out 0.3s;
+}
+.sidebarHeader{
+    padding: 24px;
+}
+.sidebar-close-open-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+.openIcon{
+    position: fixed;
+    right: 24px;
+    top: 12px;
+    z-index: 3;
+}
+.closeIcon{
+    position: absolute;
+    right: 12px;
+    z-index: 1;
+    top: 12px;
+}
+
+.sidebar-ul-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.sidebar-ul-list > li {
+  list-style-type: none;
+}
+.sidebar-ul-list > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  padding: 20px;
+}
+.sidebar-ul-list > li > a:hover{
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+}
+
+.showSideBar{
+    transform: translate(0%);
+}
